@@ -20,7 +20,6 @@ def load_packages_data():
     last_updated = (datetime.today() - timedelta(days=13)).strftime("%d %b %Y")
     return packages, last_updated
 
-# Generate Gemini response
 def generate_response_with_gemini(query, packages_data, last_updated, history):
     # Avoid greeting in every response
     first_time = not history
@@ -35,6 +34,7 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
     # Track unique names to avoid duplication
     seen_packages = set()
     formatted_packages = []
+    price_mentioned = False  # Track if price was included
 
     for pkg in packages_data:
         name = str(pkg.get('Package Name', '')).strip()
@@ -49,11 +49,17 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
         sms = str(pkg.get('SMS', '')).strip()
         price = str(pkg.get('Price (PKR)', '')).strip()
 
-        if data and data.upper() != 'N/A': parts.append(f"{data}GB data")
-        if onnet and onnet.upper() != 'N/A': parts.append(f"{onnet} on-net mins")
-        if offnet and offnet.upper() != 'N/A': parts.append(f"{offnet} off-net mins")
-        if sms and sms.upper() != 'N/A': parts.append(f"{sms} SMS")
-        if price and price.upper() != 'N/A': parts.append(f"PKR {price}")
+        if data and data.upper() != 'N/A':
+            parts.append(f"{data}GB data")
+        if onnet and onnet.upper() != 'N/A':
+            parts.append(f"{onnet} on-net mins")
+        if offnet and offnet.upper() != 'N/A':
+            parts.append(f"{offnet} off-net mins")
+        if sms and sms.upper() != 'N/A':
+            parts.append(f"{sms} SMS")
+        if price and price.upper() != 'N/A':
+            parts.append(f"PKR {price}")
+            price_mentioned = True  # Set flag if price is included
 
         if parts:
             formatted_packages.append(f"- {name}: {', '.join(parts)}")
@@ -75,14 +81,15 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
         response = model.generate_content(prompt)
         text = response.text.strip()
 
-        # Check if the response contains a price reference
-        if "PKR" in text or "Rs" in text or "price" in text.lower():
-            text += "\n\n *Please note: The price is updated till 27th June, 2025.*"
+        # Append note only if price was included in the original package data
+        if price_mentioned:
+            text += "\n\n<small><b>Note: The price is updated till 27th June, 2025.</b></small>"
 
         return text
 
     except Exception as e:
         return f"Sorry, there was an error with the Gemini API: {str(e)}"
+
 
 
 # Django view to handle chatbot
