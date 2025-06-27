@@ -31,15 +31,14 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
     # Plain package heading
     prompt_intro += f"Zong Packages (Last Updated: {last_updated})\n\n"
 
-    # Track unique names to avoid duplication
     seen_packages = set()
     formatted_packages = []
-    price_mentioned = False  # Track if price was included
+    price_mentioned = False  # Track actual presence of valid price
 
     for pkg in packages_data:
         name = str(pkg.get('Package Name', '')).strip()
         if not name or name in seen_packages:
-            continue  # skip duplicates or blank names
+            continue
         seen_packages.add(name)
 
         parts = []
@@ -57,16 +56,15 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
             parts.append(f"{offnet} off-net mins")
         if sms and sms.upper() != 'N/A':
             parts.append(f"{sms} SMS")
-        if price and price.upper() != 'N/A':
+        if price and price.upper() != 'N/A' and price.strip() != "":
             parts.append(f"PKR {price}")
-            price_mentioned = True  # Set flag if price is included
+            price_mentioned = True  # Only set if valid price is appended
 
         if parts:
             formatted_packages.append(f"- {name}: {', '.join(parts)}")
 
     prompt = prompt_intro + "\n".join(formatted_packages)
 
-    # Add context from past chat, if any
     if history:
         prompt += "\n\nEarlier messages from the user:\n"
         for h in history[-3:]:
@@ -81,7 +79,6 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
         response = model.generate_content(prompt)
         text = response.text.strip()
 
-        # Append note only if price was included in the original package data
         if price_mentioned:
             text += "\n\n<small><b>Note: The price is updated till 27th June, 2025.</b></small>"
 
@@ -89,6 +86,7 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
 
     except Exception as e:
         return f"Sorry, there was an error with the Gemini API: {str(e)}"
+
 
 
 
