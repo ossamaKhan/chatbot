@@ -1,0 +1,243 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zong Chatbot</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #000000;
+      --user-bg: #e0e0e0;
+      --bot-bg: #f5f5f5;
+      --input-bg: #f0f0f0;
+    }
+    body.dark-mode {
+      --bg-color: #1e1e1e;
+      --text-color: #ffffff;
+      --user-bg: #2c2c2c;
+      --bot-bg: #3a3a3a;
+      --input-bg: #2a2a2a;
+    }
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .chat-entry .user, .chat-entry .bot {
+      border-radius: 20px;
+      padding: 12px 18px;
+      max-width: 100%;
+      word-wrap: break-word;
+    }
+    .chat-entry .user {
+      background-color: var(--user-bg);
+      align-self: flex-end;
+    }
+    .chat-entry .bot {
+      background-color: var(--bot-bg);
+      align-self: flex-start;
+      position: relative;
+    }
+    .chat-body {
+      overflow-y: auto;
+      flex-grow: 1;
+    }
+    .navbar {
+      background-color: #7BBE31 !important;
+    }
+    .chat-input {
+      background-color: #E00A86 !important;
+    }
+    .mic-btn {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .mic-btn.listening {
+      background-color: #ff4b91;
+    }
+    .listening-text {
+      color: white;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    .speak-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      margin-left: 10px;
+      color: #666;
+      font-size: 18px;
+    }
+    .speak-btn.active {
+      color: #E00A86;
+    }
+    .speak-btn:hover {
+      color: #E00A86;
+    }
+  </style>
+</head>
+<body class="d-flex flex-column">
+  <nav class="navbar navbar-expand-lg shadow-sm px-4 py-2 sticky-top">
+    <div class="container-fluid justify-content-between">
+      <img src="{% static 'images/logo.png' %}" alt="Zong Logo" height="50" />
+      <div class="d-flex align-items-center gap-2">
+        <button class="btn btn-outline-secondary btn-sm" onclick="toggleMode()">🌙/☀️</button>
+        <button id="lang-toggle" class="btn btn-outline-light btn-sm">Switch to Urdu</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-3 flex-grow-1 d-flex flex-column" style="max-width: 800px;">
+    <div class="chat-body mb-4">
+      <div class="d-flex flex-column gap-3">
+        {% for chat in chat_history %}
+        <div class="chat-entry d-flex flex-column" {% if forloop.last %}id="last-message"{% endif %}>
+          <div class="user align-self-end">
+            <strong>You:</strong> {{ chat.query }}
+          </div>
+          <div class="bot align-self-start">
+            <strong>Bot:</strong>
+            <span style="white-space: pre-line;" class="bot-response">{{ chat.response }}</span>
+            <button class="speak-btn" onclick="toggleSpeak(this)">
+              🔊
+            </button>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </main>
+
+  <form method="POST" id="chat-form" class="chat-input py-3 px-3 shadow-sm border-top w-100">
+    {% csrf_token %}
+    <div class="container d-flex align-items-center gap-2" style="max-width: 800px;">
+      <input type="text" name="query" id="query-input" class="form-control" placeholder="Ask me about Zong packages..." required autofocus />
+      <button type="button" id="mic-btn" class="mic-btn" title="Speak">🎤</button>
+      <button type="submit" class="btn" style="background-color: #7BBE31; color: white;">Ask</button>
+      <span id="listening-text" class="listening-text" style="display: none;">Listening...</span>
+    </div>
+  </form>
+
+  <script>
+    const synth = window.speechSynthesis;
+    const micBtn = document.getElementById("mic-btn");
+    const queryInput = document.getElementById("query-input");
+    const listeningText = document.getElementById("listening-text");
+    const chatForm = document.getElementById("chat-form");
+    const langToggle = document.getElementById("lang-toggle");
+    let recognition;
+    let currentLang = localStorage.getItem("chatLang") || "en"; // default English
+
+    function scrollToBottom() {
+      const lastMessage = document.getElementById("last-message");
+      if (lastMessage) {
+        lastMessage.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+
+    function toggleMode() {
+      const body = document.body;
+      body.classList.toggle("dark-mode");
+      localStorage.setItem("dark-mode", body.classList.contains("dark-mode") ? "enabled" : "disabled");
+    }
+
+    function updateLangUI() {
+      langToggle.textContent = currentLang === "en" ? "Switch to Urdu" : "Switch to English";
+      localStorage.setItem("chatLang", currentLang);
+    }
+
+    langToggle.addEventListener("click", () => {
+      currentLang = currentLang === "en" ? "ur" : "en";
+      updateLangUI();
+    });
+
+    updateLangUI();
+
+    document.addEventListener("DOMContentLoaded", () => {
+      if (localStorage.getItem("dark-mode") === "enabled") {
+        document.body.classList.add("dark-mode");
+      }
+      scrollToBottom();
+    });
+
+    if ('webkitSpeechRecognition' in window) {
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+
+      micBtn.addEventListener('click', () => {
+        stopSpeaking();
+        recognition.lang = currentLang === "en" ? "en-US" : "ur-PK";
+        recognition.start();
+        micBtn.classList.add("listening");
+        listeningText.style.display = "inline";
+      });
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        queryInput.value = transcript;
+        recognition.stop();
+        micBtn.classList.remove("listening");
+        listeningText.style.display = "none";
+        chatForm.submit();
+      };
+
+      recognition.onerror = (event) => {
+        recognition.stop();
+        micBtn.classList.remove("listening");
+        listeningText.style.display = "none";
+      };
+
+      recognition.onend = () => {
+        micBtn.classList.remove("listening");
+        listeningText.style.display = "none";
+      };
+    } else {
+      micBtn.disabled = true;
+      micBtn.title = "Speech recognition not supported";
+    }
+
+    function stopSpeaking() {
+      if (synth.speaking || synth.pending) {
+        synth.cancel();
+        const activeBtn = document.querySelector(".speak-btn.active");
+        if (activeBtn) activeBtn.classList.remove("active");
+      }
+    }
+
+    function toggleSpeak(button) {
+      const text = button.previousElementSibling.textContent;
+
+      if (synth.speaking && button.classList.contains("active")) {
+        stopSpeaking();
+      } else {
+        stopSpeaking();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = currentLang === "en" ? "en-US" : "ur-PK";
+        utterance.onend = () => {
+          button.classList.remove("active");
+        };
+        button.classList.add("active");
+        synth.speak(utterance);
+      }
+    }
+
+    chatForm.addEventListener("submit", () => {
+      stopSpeaking();
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
