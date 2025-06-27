@@ -73,7 +73,14 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
     try:
         model = genai.GenerativeModel('gemini-1.5-flash')
         response = model.generate_content(prompt)
-        return response.text.strip()
+        text = response.text.strip()
+
+        # Check if the response contains a price reference
+        if "PKR" in text or "Rs" in text or "price" in text.lower():
+            text += "\n\n *Please note: The price is updated till 27th June, 2025.*"
+
+        return text
+
     except Exception as e:
         return f"Sorry, there was an error with the Gemini API: {str(e)}"
 
