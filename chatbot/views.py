@@ -79,6 +79,7 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
         response = model.generate_content(prompt)
         text = response.text.strip()
 
+        # Append note if price was mentioned
         if price_mentioned:
             text += "\n\n<small><b>Note: The price is updated till 27th June, 2025.</b></small>"
 
@@ -86,7 +87,6 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
 
     except Exception as e:
         return f"Sorry, there was an error with the Gemini API: {str(e)}"
-
 
 
 
