@@ -21,6 +21,15 @@ def load_packages_data():
     return packages, last_updated
 
 def generate_response_with_gemini(query, packages_data, last_updated, history):
+    # Handle hardcoded identity/introduction queries
+    query_lower = query.lower()
+    identity_questions = [
+        "who are you", "what is your name", "who created you", "who made you", 
+        "who developed you", "what is zaib", "who is zaib"
+    ]
+    if any(phrase in query_lower for phrase in identity_questions):
+        return "I am ZAIB (Zong AI Bot), and I was created by Ossama Khan from Marketing, Central-B."
+
     # Avoid greeting in every response
     first_time = not history
     prompt_intro = ""
