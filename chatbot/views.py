@@ -42,7 +42,6 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
 
     seen_packages = set()
     formatted_packages = []
-    price_mentioned = False  # Track actual presence of valid price
 
     for pkg in packages_data:
         name = str(pkg.get('Package Name', '')).strip()
@@ -56,9 +55,10 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
         offnet = str(pkg.get('Off-Net Mins', '')).strip()
         sms = str(pkg.get('SMS', '')).strip()
         price = str(pkg.get('Price (PKR)', '')).strip()
+        validity = str(pkg.get('Validity (Days)', '')).strip()
 
         if data and data.upper() != 'N/A':
-            parts.append(f"{data}GB data")
+            parts.append(f"{data} data")
         if onnet and onnet.upper() != 'N/A':
             parts.append(f"{onnet} on-net mins")
         if offnet and offnet.upper() != 'N/A':
@@ -67,7 +67,8 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
             parts.append(f"{sms} SMS")
         if price and price.upper() != 'N/A' and price.strip() != "":
             parts.append(f"PKR {price}")
-            price_mentioned = True  # Only set if valid price is appended
+        if validity and validity.upper() != 'N/A':
+            parts.append(f"valid for {validity} days")
 
         if parts:
             formatted_packages.append(f"- {name}: {', '.join(parts)}")
@@ -88,14 +89,11 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
         response = model.generate_content(prompt)
         text = response.text.strip()
 
-        # Append note if price was mentioned
-        if price_mentioned:
-            text += "\n\n<small><b>Note: The price is updated till 27th June, 2025.</b></small>"
-
         return text
 
     except Exception as e:
         return f"Sorry, there was an error with the Gemini API: {str(e)}"
+
 
 
 
