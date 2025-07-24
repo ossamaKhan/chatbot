@@ -56,6 +56,7 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
         sms = str(pkg.get('SMS', '')).strip()
         price = str(pkg.get('Price (PKR)', '')).strip()
         validity = str(pkg.get('Validity (Days)', '')).strip()
+        cta = str(pkg.get('CTA', '')).strip()
 
         if data and data.upper() != 'N/A':
             parts.append(f"{data} data")
@@ -69,6 +70,8 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
             parts.append(f"PKR {price}")
         if validity and validity.upper() != 'N/A':
             parts.append(f"valid for {validity} days")
+        if cta and cta.upper() != 'N/A':
+            parts.append(f"{cta} CTA")
 
         if parts:
             formatted_packages.append(f"- {name}: {', '.join(parts)}")
