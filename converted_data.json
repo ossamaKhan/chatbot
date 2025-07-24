@@ -4,40 +4,44 @@
         "Price (PKR)": 420.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 200,
-        "Data (GB)": "35 GB",
+        "Data (GB)": "35",
         "SMS": 5000,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*4466#"
     },
     {
         "Package Name": "Area Play Basic",
-        "Price (PKR)": 210,
+        "Price (PKR)": 50.0,
         "On-Net (Zong Mins)": 300,
-        "Off-Net Mins": 40,
-        "Data (GB)": "3 GB",
-        "SMS": 300,
+        "Off-Net Mins": 25,
+        "Data (GB)": "1.5",
+        "SMS": 700,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*4466#"
     },
     {
         "Package Name": "Area Play Base Offer",
         "Price (PKR)": 200.0,
         "On-Net (Zong Mins)": 300,
         "Off-Net Mins": 20,
-        "Data (GB)": "3 GB",
+        "Data (GB)": "3",
         "SMS": 300,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*4466#"
     },
     {
         "Package Name": "Area Play Extreme",
         "Price (PKR)": 370.0,
         "On-Net (Zong Mins)": 4000,
         "Off-Net Mins": 180,
-        "Data (GB)": "25 GB",
+        "Data (GB)": "25",
         "SMS": 4000,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*4466#"
     },
     {
         "Package Name": "Area Play Max",
@@ -47,1506 +51,1217 @@
         "Data (GB)": "12GB",
         "SMS": 3000,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*4466#"
     },
     {
         "Package Name": "Area Play Plus",
         "Price (PKR)": 290.0,
         "On-Net (Zong Mins)": 2000,
         "Off-Net Mins": 80,
-        "Data (GB)": "8 GB",
+        "Data (GB)": "8",
         "SMS": 2000,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 360.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*4466#"
     },
     {
         "Package Name": "Area Play Supreme",
         "Price (PKR)": 380.0,
         "On-Net (Zong Mins)": 4000,
         "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
+        "Data (GB)": "20",
         "SMS": 4000,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 340.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 360.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 370.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 370.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 370.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 360.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 360.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 360.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 360.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 340.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 360.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 300.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 320.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 300.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 300.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "Area Play Supreme",
-        "Price (PKR)": 380.0,
-        "On-Net (Zong Mins)": 4000,
-        "Off-Net Mins": 150,
-        "Data (GB)": "20 GB",
-        "SMS": 4000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*4466#"
     },
     {
         "Package Name": "Area Play Bachat",
         "Price (PKR)": 100.0,
         "On-Net (Zong Mins)": 100,
         "Off-Net Mins": 10,
-        "Data (GB)": "2 GB",
+        "Data (GB)": "2",
         "SMS": 100,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*4466#"
     },
     {
         "Package Name": "Zong Unlimited",
         "Price (PKR)": 150.0,
         "On-Net (Zong Mins)": 100,
         "Off-Net Mins": 10,
-        "Data (GB)": "100 MB",
+        "Data (GB)": "100",
         "SMS": 10,
         "Validity (Days)": 180.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*5123#"
     },
     {
         "Package Name": "Monthly Call",
-        "Price (PKR)": 500.0,
+        "Price (PKR)": 400.0,
         "On-Net (Zong Mins)": 1000,
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
         "SMS": 1000,
         "Validity (Days)": 30.0,
-        "Category": "Voice"
+        "Category": "Voice",
+        "CTA": "*4142#"
     },
     {
         "Package Name": "Monthly Call Plus",
         "Price (PKR)": 600.0,
         "On-Net (Zong Mins)": 2000,
         "Off-Net Mins": 100,
-        "Data (GB)": "N/A",
+        "Data (GB)": NaN,
         "SMS": 2000,
         "Validity (Days)": 30.0,
-        "Category": "Voice"
+        "Category": "Voice",
+        "CTA": "*4143#"
     },
     {
         "Package Name": "My5 Call/Family Voice Sharing Bundle",
         "Price (PKR)": 2000.0,
-        "On-Net (Zong Mins)": "N/A",
+        "On-Net (Zong Mins)": NaN,
         "Off-Net Mins": 5000,
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Data (GB)": NaN,
+        "SMS": 5000,
         "Validity (Days)": 30.0,
-        "Category": "Voice"
+        "Category": "Voice",
+        "CTA": "*7180#"
     },
     {
         "Package Name": "Maheena Bhar Mouj",
-        "Price (PKR)": 650.0,
-        "On-Net (Zong Mins)": "N/A",
+        "Price (PKR)": 750.0,
+        "On-Net (Zong Mins)": NaN,
         "Off-Net Mins": 3000,
-        "Data (GB)": "N/A",
+        "Data (GB)": NaN,
         "SMS": 3000,
         "Validity (Days)": 30.0,
-        "Category": "Voice"
+        "Category": "Voice",
+        "CTA": "*4144#"
     },
     {
         "Package Name": "Supreme Offer (Hybrid Bundle-SMS)",
         "Price (PKR)": 1600.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 600,
-        "Data (GB)": "30 GB",
+        "Data (GB)": "30",
         "SMS": 5000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*3033#"
     },
     {
         "Package Name": "Daily Supreme Offer",
-        "Price (PKR)": 100.0,
+        "Price (PKR)": 57.5,
         "On-Net (Zong Mins)": 1000,
         "Off-Net Mins": 10,
-        "Data (GB)": "2 GB",
+        "Data (GB)": "2",
         "SMS": 1000,
         "Validity (Days)": 1.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Shandaar Mahana Offer - Service Fee",
         "Price (PKR)": 550.0,
         "On-Net (Zong Mins)": 1000,
         "Off-Net Mins": 100,
-        "Data (GB)": "1 GB",
+        "Data (GB)": "1",
         "SMS": 1000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Hello Bundle 30day free 100 Onnet minutes daily",
         "Price (PKR)": 350.0,
         "On-Net (Zong Mins)": "100 Daily",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "1 MB Daily",
-        "SMS": "N/A",
+        "Off-Net Mins": NaN,
+        "Data (GB)": "1  Daily",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Voice",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Unlimited Weekly-Voice",
         "Price (PKR)": 120.0,
         "On-Net (Zong Mins)": "Unlimited",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
         "SMS": "150 Daily",
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Voice",
+        "CTA": "N/A"
     },
     {
         "Package Name": "MONTHLY SMS-WHATSAPP SERVICE FEE",
         "Price (PKR)": 150.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "30",
+        "SMS": 500,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Social",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Weekly SMS -Service Fee",
         "Price (PKR)": 60.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Daily SMS-MMS-Whatsapp Bundle @ Rs. 3.99 ¿ Mobile Internet",
         "Price (PKR)": 34.5,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "1 MB",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "1",
         "SMS": 500,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Mega Data Offer",
         "Price (PKR)": 350.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "100",
+        "SMS": NaN,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Work From Home-SMS",
         "Price (PKR)": 300.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": 1000,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "10",
+        "SMS": NaN,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Voice",
+        "CTA": "*3434#"
     },
     {
         "Package Name": "Infinity Voice",
         "Price (PKR)": 60.0,
         "On-Net (Zong Mins)": 120,
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 180.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Prepaid Internet SIM 5GB Monthly",
         "Price (PKR)": 400.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "5",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Data",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Super Weekly Premium-SMS",
         "Price (PKR)": 500.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 180,
-        "Data (GB)": "30 GB",
+        "Data (GB)": "30",
         "SMS": 5000,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*2250#"
     },
     {
         "Package Name": "Weekly PRO-SMS",
         "Price (PKR)": 550.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 250,
-        "Data (GB)": "40 GB",
+        "Data (GB)": "40",
         "SMS": 5000,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*7940#"
     },
     {
         "Package Name": "Monthly Digital Max with VAS",
         "Price (PKR)": 2100.0,
         "On-Net (Zong Mins)": 10000,
         "Off-Net Mins": 1000,
-        "Data (GB)": "100 GB",
+        "Data (GB)": "100",
         "SMS": 10000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*7333#"
     },
     {
         "Package Name": "Monthly Digital Max Basic",
         "Price (PKR)": 2000.0,
         "On-Net (Zong Mins)": 10000,
         "Off-Net Mins": 1000,
-        "Data (GB)": "100 GB",
+        "Data (GB)": "100",
         "SMS": 10000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*7339#"
     },
     {
         "Package Name": "Weekly Pro Plus",
         "Price (PKR)": 570.0,
         "On-Net (Zong Mins)": 6000,
         "Off-Net Mins": 600,
-        "Data (GB)": "60 GB",
+        "Data (GB)": "60",
         "SMS": 6000,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Weekly Super Star",
-        "Price (PKR)": 580.0,
-        "On-Net (Zong Mins)": 6000,
-        "Off-Net Mins": 600,
-        "Data (GB)": "60 GB",
-        "SMS": 6000,
+        "Price (PKR)": 520.0,
+        "On-Net (Zong Mins)": 10000,
+        "Off-Net Mins": 1000,
+        "Data (GB)": "80",
+        "SMS": 10000,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*1600#"
     },
     {
         "Package Name": "Monthly Pro Max with VAS",
         "Price (PKR)": 2200.0,
         "On-Net (Zong Mins)": 20000,
         "Off-Net Mins": 2000,
-        "Data (GB)": "200 GB",
+        "Data (GB)": "200",
         "SMS": 20000,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*7331#"
     },
     {
         "Package Name": "Monthly Pro Max Basic",
         "Price (PKR)": 2100.0,
         "On-Net (Zong Mins)": 20000,
         "Off-Net Mins": 2000,
-        "Data (GB)": "200 GB",
+        "Data (GB)": "200",
         "SMS": 20000,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*7340#"
     },
     {
         "Package Name": "My5",
         "Price (PKR)": 5000.0,
         "On-Net (Zong Mins)": 20000,
         "Off-Net Mins": 2000,
-        "Data (GB)": "200 GB",
+        "Data (GB)": "200",
         "SMS": 20000,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*7334#"
     },
     {
         "Package Name": "MY4",
         "Price (PKR)": 4300.0,
         "On-Net (Zong Mins)": 16000,
         "Off-Net Mins": 1600,
-        "Data (GB)": "160 GB",
+        "Data (GB)": "160",
         "SMS": 16000,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*310#"
     },
     {
         "Package Name": "My3",
         "Price (PKR)": 3600.0,
         "On-Net (Zong Mins)": 10000,
         "Off-Net Mins": 1000,
-        "Data (GB)": "120 GB",
+        "Data (GB)": "120",
         "SMS": 10000,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*7332#"
     },
     {
         "Package Name": "Monthly Supreme Plus-Service Fee",
         "Price (PKR)": 1600.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 600,
-        "Data (GB)": "30 GB",
+        "Data (GB)": "30",
         "SMS": 5000,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*3033#"
     },
     {
         "Package Name": "Monthlyh Super Card",
         "Price (PKR)": 1300.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 300,
-        "Data (GB)": "10 GB",
+        "Data (GB)": "10",
         "SMS": 5000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*5501#"
     },
     {
         "Package Name": "Supreme Offer (Hybrid Bundle-SMS)",
         "Price (PKR)": 1500.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 500,
-        "Data (GB)": "20 GB",
+        "Data (GB)": "20",
         "SMS": 5000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Haftawar Load Offer-SMS",
         "Price (PKR)": 450.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 100,
-        "Data (GB)": "15 GB",
+        "Data (GB)": "15",
         "SMS": 5000,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Super Weekly Plus",
         "Price (PKR)": 450.0,
-        "On-Net (Zong Mins)": "N/A",
+        "On-Net (Zong Mins)": NaN,
         "Off-Net Mins": 100,
-        "Data (GB)": "15 GB",
-        "SMS": "N/A",
+        "Data (GB)": "15",
+        "SMS": NaN,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Super Weekly Max",
         "Price (PKR)": 500.0,
-        "On-Net (Zong Mins)": "N/A",
+        "On-Net (Zong Mins)": NaN,
         "Off-Net Mins": 180,
-        "Data (GB)": "30 GB",
-        "SMS": "N/A",
+        "Data (GB)": "30",
+        "SMS": NaN,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "One Day Facebook Bundle",
-        "Price (PKR)": 34.5,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Price (PKR)": 46.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "1",
+        "SMS": NaN,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": "Social",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Daily TikTok Bundle",
-        "Price (PKR)": 34.5,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Price (PKR)": 46.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "1",
+        "SMS": NaN,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": "Social",
+        "CTA": "N/A"
     },
     {
         "Package Name": "2 Hour Nonstop",
-        "Price (PKR)": 34.5,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "Price (PKR)": 46.0,
+        "On-Net (Zong Mins)": 120,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "1",
+        "SMS": NaN,
+        "Validity (Days)": NaN,
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "1 Hr YouTube",
-        "Price (PKR)": 34.5,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "Price (PKR)": 46.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "500",
+        "SMS": NaN,
+        "Validity (Days)": NaN,
+        "Category": "Data",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Free Google Maps",
-        "Price (PKR)": 34.5,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "Price (PKR)": 46.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "500",
+        "SMS": NaN,
+        "Validity (Days)": 30.0,
+        "Category": "Data",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Monthly Pro Plus",
         "Price (PKR)": 1800.0,
         "On-Net (Zong Mins)": 10000,
         "Off-Net Mins": 600,
-        "Data (GB)": "60 GB",
+        "Data (GB)": "50",
         "SMS": 10000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*1500#"
     },
     {
         "Package Name": "Monthly Call",
-        "Price (PKR)": 500.0,
+        "Price (PKR)": 400.0,
         "On-Net (Zong Mins)": 1000,
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
         "SMS": 1000,
         "Validity (Days)": 30.0,
-        "Category": "Voice"
+        "Category": "Voice",
+        "CTA": "*4142#"
     },
     {
         "Package Name": "Monthly Call Plus",
-        "Price (PKR)": 550.0,
+        "Price (PKR)": 600.0,
         "On-Net (Zong Mins)": 2000,
         "Off-Net Mins": 100,
-        "Data (GB)": "N/A",
+        "Data (GB)": NaN,
         "SMS": 2000,
         "Validity (Days)": 30.0,
-        "Category": "Voice"
+        "Category": "Voice",
+        "CTA": "*4143#"
     },
     {
         "Package Name": "Weekly Call",
         "Price (PKR)": 250.0,
         "On-Net (Zong Mins)": 2000,
         "Off-Net Mins": 30,
-        "Data (GB)": "N/A",
+        "Data (GB)": NaN,
         "SMS": 2000,
         "Validity (Days)": 7.0,
-        "Category": "Voice"
+        "Category": "Voice",
+        "CTA": "*4141#"
     },
     {
         "Package Name": "My5 Call/Family Voice Sharing Bundle",
-        "Price (PKR)": 1750.0,
-        "On-Net (Zong Mins)": "N/A",
+        "Price (PKR)": 2000.0,
+        "On-Net (Zong Mins)": NaN,
         "Off-Net Mins": 5000,
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Data (GB)": NaN,
+        "SMS": 5000,
         "Validity (Days)": 30.0,
-        "Category": "Voice"
+        "Category": "Voice",
+        "CTA": "*7180#"
     },
     {
         "Package Name": "Maheena Bhar Mouj",
-        "Price (PKR)": 600.0,
-        "On-Net (Zong Mins)": "N/A",
+        "Price (PKR)": 750.0,
+        "On-Net (Zong Mins)": NaN,
         "Off-Net Mins": 3000,
-        "Data (GB)": "N/A",
+        "Data (GB)": NaN,
         "SMS": 3000,
         "Validity (Days)": 30.0,
-        "Category": "Voice"
+        "Category": "Voice",
+        "CTA": "*4144#"
     },
     {
-        "Package Name": "Oladoc Daily ",
+        "Package Name": "Oladoc Daily",
         "Price (PKR)": 5.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "*6138#"
     },
     {
         "Package Name": "Oladoc Weekly",
         "Price (PKR)": 25.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "*6138#"
     },
     {
         "Package Name": "Oladoc Monthly",
         "Price (PKR)": 60.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "*6138#"
     },
     {
         "Package Name": "3G Monthly Premium 2GB",
         "Price (PKR)": 1000.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "3G Mon Premium 6GB",
         "Price (PKR)": 1200.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Monthly Premium 5GB",
         "Price (PKR)": 600.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "5 GB",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "5",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "*5050#"
     },
     {
         "Package Name": "Monthly Social Plus",
-        "Price (PKR)": 600.0,
+        "Price (PKR)": 700.0,
         "On-Net (Zong Mins)": 500,
         "Off-Net Mins": 100,
-        "Data (GB)": "N/A",
+        "Data (GB)": "20",
         "SMS": 500,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
-        "Package Name": "Haftawar Voice Offer",
-        "Price (PKR)": 130.0,
-        "On-Net (Zong Mins)": "N/A",
+        "Package Name": "Haftawar Voice Offer- 20GB whatsaap",
+        "Price (PKR)": 120.0,
+        "On-Net (Zong Mins)": NaN,
         "Off-Net Mins": 1000,
-        "Data (GB)": "1 GB",
+        "Data (GB)": "1",
         "SMS": 1000,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Monthly WhatsApp Prime",
-        "Price (PKR)": 280.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Price (PKR)": 300.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "8",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "Data"
+        "Category": "Data",
+        "CTA": "*3999#"
     },
     {
         "Package Name": "Monthly Social MAX-Service Fee",
-        "Price (PKR)": 650.0,
+        "Price (PKR)": 750.0,
         "On-Net (Zong Mins)": 500,
         "Off-Net Mins": 100,
-        "Data (GB)": "N/A",
+        "Data (GB)": "30",
         "SMS": 500,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Whatsapp (Prepaid)",
-        "Price (PKR)": 220.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Price (PKR)": 250.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "4",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Data",
+        "CTA": "*3998#"
     },
     {
         "Package Name": "IMO Monthly Bundle",
-        "Price (PKR)": 150.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Price (PKR)": 200.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "2.5",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Social",
+        "CTA": "*466#"
     },
     {
         "Package Name": "Monthly Social Mini",
-        "Price (PKR)": 280.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Price (PKR)": 300.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "6",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Social",
+        "CTA": "*3997#"
     },
     {
         "Package Name": "Weekly TikTok Offer",
-        "Price (PKR)": 170.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Price (PKR)": 200.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "5",
+        "SMS": NaN,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Social",
+        "CTA": "*606#"
     },
     {
         "Package Name": "Whatsapp Plus-SMS",
-        "Price (PKR)": 350.0,
+        "Price (PKR)": 400.0,
         "On-Net (Zong Mins)": 200,
-        "Off-Net Mins": 30,
-        "Data (GB)": "N/A",
+        "Off-Net Mins": 50,
+        "Data (GB)": "7",
         "SMS": 200,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*4000#"
     },
     {
         "Package Name": "Monthly Social Bundle-SMS",
-        "Price (PKR)": 550.0,
+        "Price (PKR)": 600.0,
         "On-Net (Zong Mins)": 250,
         "Off-Net Mins": 50,
-        "Data (GB)": "N/A",
+        "Data (GB)": "12",
         "SMS": 250,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*6000#"
     },
     {
         "Package Name": "Monthly PubG Mobile Bundle",
-        "Price (PKR)": 170.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "Price (PKR)": 200.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "10",
+        "SMS": NaN,
+        "Validity (Days)": NaN,
+        "Category": "Social",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Weekly Social Offer",
-        "Price (PKR)": 250.0,
+        "Price (PKR)": 270.0,
         "On-Net (Zong Mins)": 500,
         "Off-Net Mins": 20,
-        "Data (GB)": "N/A",
+        "Data (GB)": "5",
         "SMS": 200,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*6688#"
     },
     {
         "Package Name": "Monthly Bachat Bazar",
         "Price (PKR)": 150.0,
-        "On-Net (Zong Mins)": 200,
+        "On-Net (Zong Mins)": 500,
         "Off-Net Mins": 30,
-        "Data (GB)": "3 GB",
-        "SMS": 200,
+        "Data (GB)": "3",
+        "SMS": 500,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Weekly Digital Max",
         "Price (PKR)": 600.0,
         "On-Net (Zong Mins)": 10000,
         "Off-Net Mins": 1000,
-        "Data (GB)": "100 GB",
+        "Data (GB)": "100",
         "SMS": 10000,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*1601#"
     },
     {
         "Package Name": "DAYTIME OFFER",
         "Price (PKR)": 46.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "1.5",
+        "SMS": NaN,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": "Data",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Zong Unlimited",
-        "Price (PKR)": 100.0,
+        "Price (PKR)": 150.0,
         "On-Net (Zong Mins)": 100,
         "Off-Net Mins": 10,
-        "Data (GB)": "100 MB",
+        "Data (GB)": "100",
         "SMS": 10,
         "Validity (Days)": 180.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*5123#"
     },
     {
         "Package Name": "Good Night Offer R. 6/Day",
-        "Price (PKR)": 34.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Price (PKR)": 46.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "3",
+        "SMS": NaN,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": "Data",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Daily Social",
         "Price (PKR)": 46.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "2",
+        "SMS": NaN,
+        "Validity (Days)": 1.0,
+        "Category": "Social",
+        "CTA": "*386#"
     },
     {
         "Package Name": "Monthly Voice Offer C3 C4",
         "Price (PKR)": 240.0,
         "On-Net (Zong Mins)": "100/Day",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Voice",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Super Voice Offer",
         "Price (PKR)": 240.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Apna Shehar – Punjab",
         "Price (PKR)": 280.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 120,
-        "Data (GB)": "8 GB",
+        "Data (GB)": "8",
         "SMS": 5000,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
-        "Package Name": "Monthly Super Card Mini",
-        "Price (PKR)": 1000.0,
+        "Package Name": "Monthly Super Card",
+        "Price (PKR)": 1300.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 300,
-        "Data (GB)": "10 GB",
+        "Data (GB)": "10",
         "SMS": 5000,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*5501#"
     },
     {
         "Package Name": "Monthly Super-SMS",
         "Price (PKR)": 1300.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 300,
-        "Data (GB)": "30 GB",
+        "Data (GB)": "30",
         "SMS": 5000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "ALL-IN-ONE WEEKLY HYBRID BUNDLE -Service Fee",
         "Price (PKR)": 300.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 60,
-        "Data (GB)": "4 GB",
+        "Data (GB)": "4",
         "SMS": 5000,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Pro Max Hattrick Bundle",
         "Price (PKR)": 5000.0,
-        "On-Net (Zong Mins)": 60000,
-        "Off-Net Mins": 6000,
-        "Data (GB)": "600 GB",
-        "SMS": 60000,
+        "On-Net (Zong Mins)": 20000,
+        "Off-Net Mins": 2000,
+        "Data (GB)": "200",
+        "SMS": 20000,
         "Validity (Days)": 90.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Monthly Pro",
-        "Price (PKR)": 1600.0,
+        "Price (PKR)": 1800.0,
         "On-Net (Zong Mins)": 10000,
         "Off-Net Mins": 600,
-        "Data (GB)": "50 GB",
+        "Data (GB)": "50",
         "SMS": 10000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*7088#"
     },
     {
-        "Package Name": "Prepaid MBB Monthly 50GB",
+        "Package Name": "Prepaid B Monthly 50GB",
         "Price (PKR)": 2500.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "65 GB",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "65",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "3 Days Bundle-SMS",
-        "Price (PKR)": 100.0,
+        "Price (PKR)": 120.0,
         "On-Net (Zong Mins)": 1000,
         "Off-Net Mins": 10,
-        "Data (GB)": "1 GB",
-        "SMS": "N/A",
+        "Data (GB)": "2",
+        "SMS": NaN,
         "Validity (Days)": 3.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*3433#"
     },
     {
         "Package Name": "Haftawar Punjab Offer-Voice",
         "Price (PKR)": 180.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": 1000,
+        "Off-Net Mins": 100,
+        "Data (GB)": "3",
+        "SMS": 1000,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
-        "Package Name": "Prepaid MBB Monthly Flat 200GB",
-        "Price (PKR)": 3000.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "200 GB",
-        "SMS": "N/A",
+        "Package Name": "Prepaid B Monthly Flat 200GB",
+        "Price (PKR)": 3300.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "200",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "MBB"
+        "Category": "B",
+        "CTA": "*6767#"
     },
     {
         "Package Name": "Super Weekly Offer",
         "Price (PKR)": 250.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 60,
-        "Data (GB)": "4 GB",
+        "Data (GB)": "4",
         "SMS": 5000,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
-        "Package Name": "Super Weekly Max on Internet SIM Tariff(10 GB)",
+        "Package Name": "Super Weekly Max on Internet SIM Tariff(10)",
         "Price (PKR)": 450.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "25",
+        "SMS": NaN,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Data",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Prepaid Internet SIM Super Weekly Plus",
         "Price (PKR)": 350.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "8",
+        "SMS": NaN,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
+        "Category": "Data",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Discounted Monthly Super Card",
         "Price (PKR)": 400.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Discounted Weekly Pro",
         "Price (PKR)": 200.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 7.0,
-        "Category": "N/A"
-    },
-    {
-        "Package Name": "My5 Call Bundle – Child Zero",
-        "Price (PKR)": 0.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": 30.0,
-        "Category": "N/A"
-    },
-    {
-        "Package Name": "My5 - Child Zero",
-        "Price (PKR)": 0.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": 30.0,
-        "Category": "N/A"
-    },
-    {
-        "Package Name": "My4 - Child Zero",
-        "Price (PKR)": 0.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": 30.0,
-        "Category": "N/A"
-    },
-    {
-        "Package Name": "My3 - Child Zero",
-        "Price (PKR)": 0.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Maheena Bhar Offer",
-        "Price (PKR)": 549.0,
-        "On-Net (Zong Mins)": "N/A",
+        "Price (PKR)": 580.0,
+        "On-Net (Zong Mins)": NaN,
         "Off-Net Mins": 2000,
-        "Data (GB)": "10 GB",
-        "SMS": 2000,
+        "Data (GB)": "10",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Supreme Hattrick bundle",
         "Price (PKR)": 3000.0,
-        "On-Net (Zong Mins)": 15000,
-        "Off-Net Mins": 1800,
-        "Data (GB)": "90 GB",
-        "SMS": 15000,
+        "On-Net (Zong Mins)": 5000,
+        "Off-Net Mins": 600,
+        "Data (GB)": "30",
+        "SMS": 5000,
         "Validity (Days)": 90.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Daily Bachat Bazar",
         "Price (PKR)": 11.5,
         "On-Net (Zong Mins)": 200,
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "500 MB",
+        "Off-Net Mins": NaN,
+        "Data (GB)": "500",
         "SMS": 200,
         "Validity (Days)": 1.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*3535#"
     },
     {
         "Package Name": "3 Day Bachat Bazar",
         "Price (PKR)": 28.75,
         "On-Net (Zong Mins)": 200,
         "Off-Net Mins": 20,
-        "Data (GB)": "1 GB",
+        "Data (GB)": "1",
         "SMS": 200,
         "Validity (Days)": 3.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "*3535#"
     },
     {
         "Package Name": "Weekly Bachat Bazar",
         "Price (PKR)": 57.5,
         "On-Net (Zong Mins)": 200,
         "Off-Net Mins": 20,
-        "Data (GB)": "2 GB",
+        "Data (GB)": "2",
         "SMS": 200,
         "Validity (Days)": 7.0,
-        "Category": "Hybrid"
-    },
-    {
-        "Package Name": "1 Key Press CRBT SMS Download",
-        "Price (PKR)": 8.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "*3535#"
     },
     {
         "Package Name": "Sixer -Service Fee",
         "Price (PKR)": 19.24,
         "On-Net (Zong Mins)": 1440,
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "50 MB",
+        "Off-Net Mins": NaN,
+        "Data (GB)": "50",
         "SMS": 800,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
-    },
-    {
-        "Package Name": "Non Stop Offer",
-        "Price (PKR)": 19.24,
-        "On-Net (Zong Mins)": 1440,
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "50 MB",
-        "SMS": 800,
-        "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Women segment -Service Fee",
         "Price (PKR)": 19.24,
         "On-Net (Zong Mins)": 1440,
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "50 MB",
+        "Off-Net Mins": NaN,
+        "Data (GB)": "50",
         "SMS": 800,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Full Gup Whatsapp",
         "Price (PKR)": 19.24,
         "On-Net (Zong Mins)": 1440,
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "50 MB",
+        "Off-Net Mins": NaN,
+        "Data (GB)": "50",
         "SMS": 800,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Hybrid Bundle (SHANDAAR - SMS)",
         "Price (PKR)": 34.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Economy Package 1.6_CS",
         "Price (PKR)": 21.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
+        "Validity (Days)": NaN,
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Default Plan 0.9_CS",
         "Price (PKR)": 21.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
+        "Validity (Days)": NaN,
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Powerpack SIMs 1500 Gold (SMS)",
         "Price (PKR)": 1725.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "N/A",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": NaN,
+        "SMS": NaN,
+        "Validity (Days)": NaN,
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Weekly Hybrid LBC Punjab-SMS",
-        "Price (PKR)": 135.9,
-        "On-Net (Zong Mins)": 500,
-        "Off-Net Mins": 30,
-        "Data (GB)": "2 GB",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "Price (PKR)": 137.0,
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": 50,
+        "Data (GB)": "2",
+        "SMS": NaN,
+        "Validity (Days)": NaN,
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
-        "Package Name": "Prepaid MBB Monthly 75GB +75GB (4am-4pm)",
+        "Package Name": "Prepaid B Monthly 80GB +80GB (4am-4pm)",
         "Price (PKR)": 2600.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
         "Data (GB)": "80GB +80GB (4am-4pm)",
-        "SMS": "N/A",
+        "SMS": NaN,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Data",
+        "CTA": "N/A"
     },
     {
-        "Package Name": "Prepaid MBB Monthly 100GB + 100GB (4am-4pm)",
+        "Package Name": "Prepaid B Monthly 100GB + 100GB (4am-4pm)",
         "Price (PKR)": 3300.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
         "Data (GB)": "100GB + 100GB (4am-4pm)",
-        "SMS": "N/A",
-        "Validity (Days)": "N/A",
-        "Category": "N/A"
+        "SMS": NaN,
+        "Validity (Days)": 30.0,
+        "Category": "Data",
+        "CTA": "*6767#"
     },
     {
         "Package Name": "Daily SMS 2.5 -Service Fee",
         "Price (PKR)": 10.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "N/A",
-        "Data (GB)": "1 MB",
+        "On-Net (Zong Mins)": NaN,
+        "Off-Net Mins": NaN,
+        "Data (GB)": "1",
         "SMS": 500,
         "Validity (Days)": 1.0,
-        "Category": "N/A"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Mahana Punjab Offer-Voice",
         "Price (PKR)": 590.0,
         "On-Net (Zong Mins)": 3000,
         "Off-Net Mins": 400,
-        "Data (GB)": "4 GB",
+        "Data (GB)": "4",
         "SMS": 3000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Supreme Punjab-SMS",
         "Price (PKR)": 1000.0,
         "On-Net (Zong Mins)": 5000,
         "Off-Net Mins": 400,
-        "Data (GB)": "10 GB",
+        "Data (GB)": "22",
         "SMS": 5000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Super Star Offer-SMS",
         "Price (PKR)": 575.0,
         "On-Net (Zong Mins)": 3000,
         "Off-Net Mins": 500,
-        "Data (GB)": "8 GB",
+        "Data (GB)": "8",
         "SMS": 3000,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     },
     {
         "Package Name": "Monthly Social-SMS",
         "Price (PKR)": 270.0,
         "On-Net (Zong Mins)": 250,
         "Off-Net Mins": 50,
-        "Data (GB)": "N/A",
+        "Data (GB)": NaN,
         "SMS": 250,
         "Validity (Days)": 30.0,
-        "Category": "N/A"
-    },
-    {
-        "Package Name": "Haftawar Voice Offer",
-        "Price (PKR)": 99.0,
-        "On-Net (Zong Mins)": "N/A",
-        "Off-Net Mins": "1000 Allnet",
-        "Data (GB)": "1 GB",
-        "SMS": 1000,
-        "Validity (Days)": 7.0,
-        "Category": "Hybrid"
+        "Category": NaN,
+        "CTA": "N/A"
     },
     {
         "Package Name": "Maheena Bhar Offer",
         "Price (PKR)": 499.0,
-        "On-Net (Zong Mins)": "N/A",
+        "On-Net (Zong Mins)": NaN,
         "Off-Net Mins": "2000 Allnet",
-        "Data (GB)": "10 GB",
+        "Data (GB)": "10",
         "SMS": 2000,
         "Validity (Days)": 30.0,
-        "Category": "Hybrid"
+        "Category": "Hybrid",
+        "CTA": "N/A"
     }
 ]
