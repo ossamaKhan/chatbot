@@ -159,8 +159,7 @@
     }
 
     langToggle.addEventListener("click", () => {
-      #currentLang = currentLang === "en" ? "ur" : "en";
-      recognition.lang = currentLang === "en" ? "en-US" : "hi-IN";
+      currentLang = currentLang === "en" ? "ur" : "en";
 
       updateLangUI();
     });
@@ -181,7 +180,7 @@
 
       micBtn.addEventListener('click', () => {
         stopSpeaking();
-        recognition.lang = currentLang === "en" ? "en-US" : "ur-PK";
+        recognition.lang = currentLang === "en" ? "en-US" : "hi-IN";  // Urdu fallback
         recognition.start();
         micBtn.classList.add("listening");
         listeningText.style.display = "inline";
