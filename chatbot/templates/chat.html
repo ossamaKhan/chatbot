@@ -159,7 +159,9 @@
     }
 
     langToggle.addEventListener("click", () => {
-      currentLang = currentLang === "en" ? "ur" : "en";
+      #currentLang = currentLang === "en" ? "ur" : "en";
+      recognition.lang = currentLang === "en" ? "en-US" : "hi-IN";
+
       updateLangUI();
     });
 
