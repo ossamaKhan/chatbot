@@ -88,7 +88,7 @@ def generate_response_with_gemini(query, packages_data, last_updated, history):
     prompt += f"\nUser's latest question:\n- {query}\n\nPlease reply clearly and do not use any formatting like asterisks or Markdown."
 
     try:
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.0-flash')
         response = model.generate_content(prompt)
         text = response.text.strip()
 
